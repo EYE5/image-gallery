@@ -1,0 +1,12 @@
+.image_modal_comment-container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 10px 0;
+	font-size: 18px;
+}
+.image_modal_comment-date {
+	color: #999999;
+	margin-bottom: 5px;
+}
+
+

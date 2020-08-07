@@ -1,0 +1,35 @@
+.image_modal-container {
+	display: flex;
+	flex-flow: row wrap;
+	width: 72vw;
+}
+
+.image_modal-flex_align_center {
+	display: flex;
+	justify-content: center;
+}
+
+.image_modal-img {
+	width: 600px;
+	height: 400px;
+}
+
+@media screen and (max-width: 1200px) {
+	.image_modal-container {
+		flex-flow: column;
+		width: 600px;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+	.image_modal-container {
+		width: 100vw;
+	}
+	.image_modal-img{
+		width: 100vw;
+		height: calc(100vw - 100px);
+	}
+}
+
+
