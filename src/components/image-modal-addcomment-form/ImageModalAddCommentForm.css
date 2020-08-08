@@ -3,6 +3,7 @@
 	display: flex;
 	flex-direction: column;
 	margin-top: 20px;
+	align-items: center;
 }
 
 .image_modal_addcomment_form-input {
@@ -25,13 +26,14 @@
 	height: 30px;
 	width: 600px;
 }
+
+.image_modal_addcomment_form-input-error{
+	border: 2px red;
+}
 .image_modal_addcomment_form-button:hover {
 	background: blueviolet;
 }
 @media screen and (max-width: 500px) {
-	.image_modal_addcomment_form-container{
-		align-items: center;
-	}
 	.image_modal_addcomment_form-input{
 		width: 80vw;
 		height: 40px;
@@ -41,3 +43,4 @@
 		height: 40px;
 	}
 }
+

@@ -3,11 +3,11 @@ import {Link} from 'react-router-dom'
 import './ImageListItem.css';
 
 interface IImageListItem {
-    id:Number,
+    id:string,
     image:string
 }
 
-const ImageListItem = ({id,image}) => {
+const ImageListItem = ({id,image}:IImageListItem) => {
 
     return(
         <div className="image_list_item">

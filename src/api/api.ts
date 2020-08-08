@@ -22,7 +22,7 @@ export default class Api {
         }
     };
 
-    postComment = async ( itemID : Number , commentData : Object) => {
+    postComment = async ( itemID : String , commentData : Object) => {
 
         try {
             return await axios.post(`${this.host}/images/${itemID}/comments`,commentData);
