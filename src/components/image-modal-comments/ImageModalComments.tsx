@@ -5,7 +5,6 @@ import ImageModalComment from "../image-modal-comment/ImageModalComment";
 import './ImageModalComments.css';
 
 const updateComments = (comments:Array<object>) => {
-    console.log(comments)
     if(comments.length!==0) {
         return comments.map((comment, index) => <ImageModalComment key={index} comment={comment}/>);
     } else {

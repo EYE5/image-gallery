@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 //Components
 import ImageList from "./components/image-list/ImageList";
@@ -13,9 +13,11 @@ const App = () => {
   <Router>
     <div>
       <header>
+        <Link to="/" className="app-link">
         <h1>
             Image gallery
         </h1>
+        </Link>
       </header>
     <main>
       <Switch>
